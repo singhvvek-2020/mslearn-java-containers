@@ -101,7 +101,7 @@ variables:
   inputs:
     azureSubscription: 'Azure Connection'
     appName: $(WebAppName)
-    resourceGroupName: 'java-containers-cicd-rg'
+    resourceGroupName: 'VictorS-Dev-RG'
     connectionStrings: |
       [
         {
