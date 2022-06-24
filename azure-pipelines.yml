@@ -13,7 +13,8 @@ variables:
   webRepository: 'web'
   tag: '$(Build.BuildId)'
   vmImageName: 'ubuntu-latest'
-  stages:
+
+stages:
 - stage: Build
   displayName: Build and publish Java container
   jobs:  
